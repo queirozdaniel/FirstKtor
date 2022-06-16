@@ -7,7 +7,8 @@ group = "com.danielqueiroz"
 version = "1.0-SNAPSHOT"
 
 application {
-    mainClass.set("io.ktor.server.netty.EngineMain")
+//    mainClass.set("io.ktor.server.netty.EngineMain")
+    mainClass.set("com.danielqueiroz.ApplicationKt")
 }
 
 repositories {
