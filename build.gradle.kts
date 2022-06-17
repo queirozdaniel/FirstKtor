@@ -18,8 +18,8 @@ repositories {
 dependencies {
     implementation(kotlin("stdlib"))
 
-    implementation("io.ktor:ktor-server-core:1.6.4")
-    implementation("io.ktor:ktor-server-netty:1.6.4")
-    implementation("io.ktor:ktor-server-html-builder:1.6.4")
+    implementation("io.ktor:ktor-server-core:1.6.8")
+    implementation("io.ktor:ktor-server-netty:1.6.8")
+    implementation("io.ktor:ktor-html-builder:1.6.8")
     implementation("ch.qos.logback:logback-classic:1.2.5")
 }
